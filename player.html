@@ -1,0 +1,35 @@
+<DOCTYPE !html>
+<html>
+
+<head>
+<link rel=stylesheet href="player.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css?family=Nanum+Gothic" rel="stylesheet">
+</head>
+
+<body>
+<div class=panel>
+  <h2 class="songName"></h2>
+  <h3 class="author"></h2>
+
+  <span class="backward fas fa-backward"></span>
+  <span class="player fas fa-play"></span>
+  <span class="forward fas fa-forward"></span>
+  <div class="line">
+  <div>
+    <div class="progress-bar"></div>
+    <div id="new" ></div>
+    <small id="start-time">0:00</small>
+    <small id="end-time"></small>
+      <audio ontimeupdate="initProgressBar()" class="audio">
+            <source src="Forever.mp3" type="audio/mp3"></source>
+
+
+      </audio>
+
+</div>
+
+<script src="player.js"></script>
+</body>
+
+</html>

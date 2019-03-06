@@ -1,0 +1,115 @@
+.panel{
+  position: relative;
+  width: 300px;
+  height: 100px;
+  background-color: black;
+  opacity: 0.8;
+  border-radius: 5px;
+  margin-left: 30%;
+  margin-top: 20%;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  z-index: 50;
+}
+.image{
+  position: absolute;
+  margin-left: 10%;
+  margin-top: 7%;
+  width:60px;
+  height:60px;
+}
+.player{
+  position: absolute;
+  margin-left: 60%;
+  margin-top: 20%;
+  color: white;
+  z-index: 10;
+}
+.forward{
+  margin-left: 70%;
+  margin-top: 20%;
+  position: absolute;
+  color: #fff;
+}
+.backward{
+  margin-left: 50%;
+  margin-top: 20%;
+  position: absolute;
+  color: #fff;
+}
+.line{
+    transition: 0.9s;
+}
+.musicLine{
+  opacity:0.9;
+  transition: 0.9s;
+  position:absolute;
+  width:280px;
+  height:40px;
+  background-color: #000;
+  margin-top:32%;
+  margin-left: 3%;
+  border-radius: 5px;
+  z-index: -2;
+}
+.audio{
+display: none;
+
+}
+
+#start-time{
+  display: none;
+  margin-left: 10%;
+  position: relative;
+  color: #fff;
+}
+#end-time{
+  display: none;
+  margin-left: 67%;
+  position: relative;
+  color:#fff;
+}
+
+.progress-bar{
+  display: none;
+  opacity: 0.5;
+  margin-left: 10%;
+  margin-top: 7%;
+  width: 240px;
+  position: absolute;
+  height: 2px;
+  background-color: rgb(213,213,213);
+}
+#new{
+  margin-left: 10%;
+  margin-top: 7%;
+  width: 240px;
+  position: absolute;
+  height: 2px;
+  width: 0px;
+  background-color: red;
+}
+small{
+  opacity: 0.5;
+  font-size: 10px;
+  font-family: Roboto;
+  color:rgb(213,213,213);
+}
+.songName{
+  font-family: Helvetica, Arial;
+  position: absolute;
+  font-size: 13px;
+  color: #fff;
+  margin-left: 50%;
+  margin-top: 5%;
+
+
+}
+.author{
+  font-family: Helvetica, Arial;
+  opacity: 0.3;
+  position: absolute;
+  font-size: 10px;
+  color: #fff;
+  margin-left: 50%;
+  margin-top: 10%;
+}
